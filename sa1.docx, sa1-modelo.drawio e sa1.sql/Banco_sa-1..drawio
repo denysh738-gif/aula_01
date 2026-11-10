@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="5Jzl-j8UH5FMqZukYlZc" name="Página-1">
+    <mxGraphModel dx="703" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-2" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;shadow=0;" value="Unidade" vertex="1">
+          <mxGeometry height="110" width="160" x="220" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-4" parent="RLFFF43dxUPgXkdNR6UJ-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="nome" vertex="1">
+          <mxGeometry height="30" width="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-3" parent="RLFFF43dxUPgXkdNR6UJ-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_unudade (PK)" vertex="1">
+          <mxGeometry height="30" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-5" parent="RLFFF43dxUPgXkdNR6UJ-2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="Cidade&lt;div&gt;Telefone&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-21" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" value="Produto" vertex="1">
+          <mxGeometry height="116" width="160" x="220" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-22" parent="RLFFF43dxUPgXkdNR6UJ-21" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_produto (pk)" vertex="1">
+          <mxGeometry height="30" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-23" parent="RLFFF43dxUPgXkdNR6UJ-21" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="nome (UNUDADE)&lt;div&gt;preço_tabela&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-24" parent="RLFFF43dxUPgXkdNR6UJ-21" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_resina (FK)" vertex="1">
+          <mxGeometry height="30" width="160" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" value="Resina" vertex="1">
+          <mxGeometry height="86" width="160" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-26" parent="RLFFF43dxUPgXkdNR6UJ-25" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_resina" vertex="1">
+          <mxGeometry height="30" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-27" parent="RLFFF43dxUPgXkdNR6UJ-25" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="resina" vertex="1">
+          <mxGeometry height="30" width="160" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-29" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" value="estoque_Resina" vertex="1">
+          <mxGeometry height="116" width="160" x="220" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-30" parent="RLFFF43dxUPgXkdNR6UJ-29" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_unidade (PK,FK)" vertex="1">
+          <mxGeometry height="30" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-31" parent="RLFFF43dxUPgXkdNR6UJ-29" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_resina (PK,Fk)" vertex="1">
+          <mxGeometry height="30" width="160" y="56" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-32" parent="RLFFF43dxUPgXkdNR6UJ-29" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="quantidade_kg" vertex="1">
+          <mxGeometry height="30" width="160" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-37" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" value="ORDEM_PRODUÇÂO" vertex="1">
+          <mxGeometry height="160" width="160" x="220" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-38" parent="RLFFF43dxUPgXkdNR6UJ-37" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="numero_ordem (PK)&lt;div&gt;data&lt;/div&gt;&lt;div&gt;quantidade_planejada&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="160" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-39" parent="RLFFF43dxUPgXkdNR6UJ-37" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="quantidade_boa&lt;div&gt;quantidade_refugo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="RLFFF43dxUPgXkdNR6UJ-40" parent="RLFFF43dxUPgXkdNR6UJ-37" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" value="id_unidade (FK)&lt;div&gt;id_produto (FK)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="160" y="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
